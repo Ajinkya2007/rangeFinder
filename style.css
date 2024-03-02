@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+div{
+  margin:10px 0;
+}
+input{
+  margin:0 10px;
+  font-size: 1rem;
+  padding:5px 10px;
+}
+button{
+  padding:5px 10px;
+  border:0;
+  background:#2D9596;
+  color:#fff;
+  font-weight:bold;
+}
+button:hover{
+  background:#265073;
+  transition:0.4s ease-out;
+}
